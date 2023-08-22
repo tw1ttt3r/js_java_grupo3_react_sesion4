@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Galeria from './components/galeria/Galeria';
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> 
+        <Galeria />
         <a
           className="App-link"
           href="https://reactjs.org"
